@@ -20,10 +20,10 @@ const Sidebar = () => {
       </div>
       <div className="mt-[48px]">
         <ul className={styled.sidebar_links}>
-          <SidebarItem to="/home" icon={HomeIcon} label="Home" />
+          <SidebarItem to="/" icon={HomeIcon} label="Home" />
           <SidebarItem to="/products" icon={DiaomondIcon} label="Products" hasDropdown/>
           <SidebarItem to="/customers" icon={ProfileIcon} label="Customers" hasDropdown />
-          <SidebarItem to="/" icon={ShopActiveIcon} label="Shop" />
+          <SidebarItem to="/shop" icon={ShopActiveIcon} label="Shop" />
           <SidebarItem to="/income" icon={IncomeIcon} label="Income" hasDropdown />
           <SidebarItem to="/promote" icon={PromoteIcon} label="Promote" />
         </ul>

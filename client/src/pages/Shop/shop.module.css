@@ -1,0 +1,37 @@
+.product_overview{
+    background-color: #1A1D1F;
+    margin: 0 40px;
+    padding: 24px;
+    position: relative;
+    bottom: 50px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.follow_btn{
+    width: 87px;
+    height: 48px;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #2A85FF;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.most_recent_btn{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    color: #6F767E;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 2px solid #272B30;
+    gap: 8px;
+}
+.load_more_btn{
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: 2px solid #272B30;
+    font-weight: 600;
+}
